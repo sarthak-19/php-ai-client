@@ -53,7 +53,7 @@ class FunctionDeclaration extends AbstractDataTransferObject
      * Constructor.
      *
      * @since 0.1.0
-     * @since n.e.x.t Adds the optional $annotations parameter.
+     * @since 1.5.0 Adds the optional $annotations parameter.
      *
      * @param string $name The name of the function.
      * @param string $description A description of what the function does.
@@ -111,7 +111,7 @@ class FunctionDeclaration extends AbstractDataTransferObject
     /**
      * Gets the function annotations.
      *
-     * @since n.e.x.t
+     * @since 1.5.0
      *
      * @return array<string, mixed> The annotations, or an empty array if none were provided.
      */
